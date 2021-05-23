@@ -9,19 +9,19 @@ document.addEventListener('DOMContentLoaded', function() {
 async function abrirArchivo(evento) {
     //archivo seleccionado
     let archivo = evento.target.files[0];
-    console.log(archivo);
+    /* console.log(archivo); */
     //Aqui terminara el arry de objects de la lectura
     let dataArray = [];
     //aqui terminara el string que contentra la informacion tipo .CSV si esque es un.json el archivo cargado
     let dataContenido = "";
     //comprobamos si se selecciono un archivo
     if (archivo) {
-        console.log(`-------------------------------------`);
+
         //obtenemos el nombre del archivo que seleccionamos
         const nombreArchivo = archivo.name;
 
-        console.log(nombreArchivo);
-        console.log(`-------------------------------------`);
+        /* console.log(nombreArchivo); */
+
         //hacemos split . para que nos separe la extension de nombre del archivo
         const extensionArchivo = nombreArchivo.split(".");
         /* console.log(extensionArchivo[1]); */

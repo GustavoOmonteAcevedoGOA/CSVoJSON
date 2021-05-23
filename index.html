@@ -6,6 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #685e5e;
+        }
+        
+        form {
+            margin: auto;
+            width: 80%;
+            text-align: center;
+            height: 100vh;
+        }
+        
+        form label {
+            width: 100%;
+            display: inline-block;
+            color: white;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        
+        form input {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        form textarea {
+            width: 80%;
+            height: 50%;
+            background-color: #4d3c3c;
+            color: #c1a6a6;
+            font-size: 16px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,7 +58,7 @@
 
         <input name="myInput" type="file" id="archivoTexto">
         <hr>
-        <textarea name="" id="contenido" cols="40" rows="20"></textarea>
+        <textarea name="" id="contenido"></textarea>
     </form>
     <p id="mensaje"></p>
 
